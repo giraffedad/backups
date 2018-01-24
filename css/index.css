@@ -1,0 +1,523 @@
+/* banner */
+.banner{
+    position: relative;
+}
+.banner .cover-bar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    opacity: .45;
+    z-index: 10;
+}
+/* 报价部分 */
+.quote{
+    height: 580px;
+}
+.quote .quote-list{
+    margin-top: 100px;
+}
+.quote .quote-list>li{
+    position: relative;
+    float: left;
+    width: 440px;
+    height: 250px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: default;
+}
+.quote .quote-list>li:nth-child(1){
+    background:url(../images/quote1.jpg);
+}
+
+.quote .quote-list>li:nth-child(2){
+    background:url(../images/quote2.jpg);
+    margin: 0 40px;
+}
+.quote .quote-list>li:nth-child(3){
+    background:url(../images/quote3.jpg);
+}
+.quote .quote-list>li .cover{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 182px;
+    background-color: rgba(0,0,0,.35);
+    transition: all .5s;
+}
+.quote .quote-list>li:hover .cover{
+    background-color: rgba(0,0,0,.6);
+    /* height: 100%; */
+}
+.quote .quote-list>li .cover>p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.quote .quote-list>li .cover .title1{
+    margin-top: 30px;
+}
+.quote .quote-list>li .cover .title2{
+    margin-top: 8px;
+}
+.quote .quote-list>li .cover .button{
+    margin: 30px auto 0;
+    width: 143px;
+    height: 42px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    font-size: 22px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.quote .quote-list>li:hover .button{
+    background-color: #fff;
+    color:#666;
+}
+.quote .suggest{
+    margin-top: 90px;
+    height: 100px;
+    /* background:url(../images/suggest.png); */
+    background-color: #f5f5f5;
+}
+.quote .suggest>li{
+    float: left;
+    width: 325px;
+    height: 100px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+.quote .suggest>li>div,
+.quote .suggest>li>img{
+    float: left;
+}
+.quote .suggest>li>img{
+    margin-left: 12px;
+}
+.quote .suggest>li:nth-child(1)>img{
+    margin-left: 0;
+}
+.quote .suggest>li>div{
+    width: 162px;
+    margin-left: 20px;
+    /* text-align: center; */
+}
+
+.quote .suggest>li>div .tit{
+    font-size: 22px;
+    margin-top: 25px;
+}
+.quote .suggest>li>div .text{
+    margin-top: 15px;
+}
+/* 竞价横幅 */
+.streamer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background:url(../images/streamer1.png);
+    cursor: pointer;
+}
+.streamer>p{
+    position: absolute;
+    left: 724px;
+    top: 30px;
+    font-size: 46px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.streamer>p>span{
+    color: #eb5a3f;
+}
+.streamer .button{
+    margin-top: 40px;
+    width: 145px;
+    height: 39px;
+    border: 2px solid #fff;
+    float: right;
+    font-size: 30px;
+    line-height: 39px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    transition: all .5s;
+}
+.streamer:hover .button{
+    background-color: #fff;
+    color:#666;
+}
+/* 选择企业 */
+.company{
+    height: 675px;
+}
+.company h2{
+    width: 250px;
+    height: 35px;
+    margin: 110px auto 0;
+}
+.company>h2 .line{
+    float: left;
+    margin-top: 18px;
+    width: 50px;
+    border-top: 4px solid #eb5a3f;
+}
+.company>h2 .title{
+    float: left;
+    width: 103px;
+    font-size: 34px;
+    margin: 0 22px;
+    border: none;
+}
+.company .present{
+    margin-top: 24px;
+    text-align: center;
+    color: #1b6d85;
+    font-size: 16px;
+}
+/* 县区左右滚动显示 */
+.company .area-base{
+    position: relative;
+    width: 736px;
+    height: 42px;
+    margin: 0 auto;
+}
+.company .area-box{
+    width: 736px;
+    height: 42px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+.company .area-base .prev,
+.company .area-base .next{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    /* background-color: #f2f2f2; */
+    background-color: rgb(236, 236, 236);
+    transition: all .3s;     
+    user-select: none;
+}
+.company .area-base .prev:hover,
+.company .area-base .next:hover{
+    background-color: #ccc;
+    border-color: #ccc;
+}
+.company .area-base .prev{
+    border: 1px solid #dcdcdc;
+    border-right: none;
+    left: -31px;
+    top: 0;
+}
+.company .area-base .next{
+    right: -27px;
+    top: 0;
+    border: 1px solid #dcdcdc;
+    border-left: none;
+}
+.company .area-base .prev img,
+.company .area-base .next img{
+    width: 15px;
+    height: 25px;
+    margin-top: 8px;
+}
+.company .area-base .prev img{
+    margin-left: 6px;
+}
+.company .area-base .next img{
+    margin-left: 8px;
+}
+.company .area-bar{
+    position: relative;
+    left: 0;
+    height: 40px;
+    transition: all .7s ease-in-out;
+}
+.company .area-bar>li{
+    float: left;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    border: 1px solid #dcdcdc;    
+    padding: 0 42px;
+    cursor: pointer;   
+    transition: all .3s; 
+    font-size: 14px;
+}
+.company .area-bar>li:hover{
+    color: #e6a442;
+    background-color: #f9f9f9;
+}
+.company .company-list{
+    margin-top: 42px;
+    height: 450px;
+}
+.company .company-list>li{
+    position: relative;
+    float: left;
+    width: 326px;
+    height: 450px;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+    margin-left: 22px;
+    transition: all .3s;
+}
+.company .company-list>li .recommend{
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 42px;
+    height: 42px;
+    background:url(../images/recommend.png)no-repeat;
+}
+.company .company-list>li:nth-child(1){
+    margin-left: 12px;
+}
+.company .company-list>li .pic{
+    width: 326px;
+    height: 224px;
+    background:url(../images/company-show1.jpg);
+}
+.company .company-list>li .logo{
+    position: absolute;
+    left: 105px;
+    top: 163px;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px -2px #666;
+    background:#fff url(../images/company-logo1.png) 19px 18px no-repeat;
+}
+.company .company-list>li:nth-child(2) .logo,
+.company .company-list>li:nth-child(4) .logo{
+    background:#fff url(../images/company-logo2.png) 19px 18px no-repeat;
+}
+.company .company-list>li .content{
+    font-size: 20px;
+}
+.company .company-list>li .content .company-name{
+    color: #333;
+    width: 198px;
+    margin: 80px auto 0;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.company .company-list>li .content .prestige{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #888;
+}
+.company .company-list>li .content .prestige span{
+    color: #eb5a3f;
+}
+.company .company-list>li .content .button{
+    margin: 30px auto 0;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #808080;
+    color: #808080;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.company .company-list>li:hover{
+    transform: translate(0,-5px);
+    box-shadow: 1px 1px 8px -2px #666;
+}
+.company .company-list>li:hover .button{
+    border: 1px solid #f37020;
+    background-color: #f37020;
+    color: #fff;
+}
+/* 装修计算器部分 */
+.counter{
+    width: 100%;
+    height: 628px;
+    background-color: #f5f2e1;
+}
+.counter h2{
+    padding-top: 50px;
+    font-size: 28px;
+    color:rgb(48, 48, 48);
+    text-align: center;
+}
+.counter .text{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+.counter .counter-box{
+    margin: 17px auto 0;
+    width: 1370px;
+    height: 440px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.counter .counter-box .box-line{
+    margin: 11px;
+    width: 1347px;
+    height: 417px;
+    border: 1px solid #dbdbdb;
+}
+/* ----------计算器表单----- */
+.counter .counter-box .calculator{
+    float: left;
+    margin-left: 218px;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    font-size: 16px;
+}
+.counter .counter-box .calculator>p{
+    margin-top: 10px;
+}
+.counter .counter-box .calculator h3{
+    font-size: 20px;
+    text-align: center;
+}
+.counter .counter-box .calculator input{
+    padding-left: 7px;
+    border: 1px solid #aaa;
+    width: 277px;
+    height: 40px;
+}
+.counter .counter-box .calculator .distpicker select{
+    margin-top: 30px;
+    width: 136px;
+    height: 40px;
+}
+.counter .counter-box .calculator .distpicker select:nth-child(2){
+    margin-left: 10px;
+}
+.counter .counter-box .calculator #kitchen,
+.counter .counter-box .calculator #toilet{
+    width: 136px;
+    height: 40px;
+}
+.counter .counter-box .calculator #toilet{
+    margin-left: 10px;
+}
+/* ----------计算按钮----- */
+.counter .counter-box .calculator-btn{
+    position: relative;
+    float: left;
+    width: 224px;
+    height: 400px;
+    margin-left: 40px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.counter .counter-box .calculator-btn .bg-left,
+.counter .counter-box .calculator-btn .bg-right{
+    width: 112px;
+    height: 400px;
+    float: left;
+}
+.counter .counter-box .calculator-btn .bg-right{
+     background-image:linear-gradient(to top,#fff,#f1f1f1,#fff);
+}
+.counter .counter-box .calculator-btn .button{
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    width: 140px;
+    height: 140px;
+    background-color: #ffd401;
+    color:#383838;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.counter .counter-box .calculator-btn .button>p{
+    position: absolute;
+    top: 46px;
+    left: 50px;
+    font-size: 20px;
+    width: 44px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+/* 计算结果 */
+.counter .counter-box .result{
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    font-size: 16px;
+}
+.counter .counter-box .result .title{
+    /* height: 40px; */
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    /* vertical-align: middle; */
+    line-height: 50px;
+}
+.counter .counter-box .result .title i{
+    display: inline-block;
+    margin: -10px 10px;
+    width: 40px;
+    height: 40px;
+    background:url(../images/unknown1.png) no-repeat;
+}
+.counter .counter-box .result .item-box{
+    width: 275px;
+}
+.counter .counter-box .result .item-box .m-left{
+    width: 150px;
+    margin-top: 30px;
+    float: left;
+}
+.counter .counter-box .result .item-box .m-left>p{
+    color: #555;
+    margin-right: 10px;
+    width: 150px;
+    height: 60px;
+}
+.counter .counter-box .result .item-box .m-right{
+    width: 100px;
+    margin-top: 30px;
+    float: right;
+}
+.counter .counter-box .result .item-box .m-right>p{
+    height: 60px;
+}
+.counter .counter-box .result .item-box .m-right>p i{
+    display: inline-block;
+    margin: -10px 16px;
+    width: 35px;
+    height: 35px;
+    background:url(../images/unknown2.png) no-repeat;
+}
+/* article */
+.article{
+    cursor: default;
+}
+.article p{
+    margin-top: 43px;
+    font-size: 26px;
+    color: #222;
+    text-align: center;
+}
+.article .article-box{
+    margin-top: 36px;
+    margin-bottom: 90px;
+    height: 320px;
+    background:url(../images/article.png) no-repeat;
+    cursor: pointer;
+}

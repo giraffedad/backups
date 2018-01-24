@@ -1,0 +1,53 @@
+/* 
+* @Author: Administrator
+* @Date:   2017-11-10 18:11:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-15 19:33:37
+*/
+body, h1, h2, h3, h4, h5, h6, hr, p,dl, dt, dd, ul, ol, li, form, button, input, textarea, th, td,a { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1 "微软雅黑",tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6,button, input, select, textarea{ font-size:100%; } 
+body,button,input,select,textarea {color: #666; }
+i, em { font-style:normal; } 
+ul, ol,li { list-style:none; } 
+a { text-decoration:none; color: #666; } 
+a:hover { text-decoration:none;} 
+img,input,button { border:0; outline: none;}
+table { border-collapse:collapse; border-spacing:0;}
+img{vertical-align: middle;}
+
+/*=============================清除浮动*/
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+.clear{
+	zoom: 1; 
+}
+/*=============================版心*/
+.w1400{
+	width: 1400px;
+	margin: 0 auto;
+}
+.w1500{
+	width: 1500px;
+	margin: 0 auto;
+}
+/*tab-banner部分精灵图通用*/
+html body .yihui{
+	background: url(../images/index-img/spriter.png) no-repeat;
+}
+
+/*全部商品分类精灵图*/
+html body .ls-icoon{
+	background-image: url(../images/index-img/sprite.png);
+}
+/*footer精灵图*/
+html body .ft-icon{
+	display: inline-block;
+	background-image: url(../images/index-img/top_icons.png);
+}

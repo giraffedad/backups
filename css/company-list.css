@@ -1,0 +1,35 @@
+.top-line {
+  width: 100%;
+  height: 2px;
+  background-color: #ed593f; }
+
+.crumbs ul {
+  width: 100%;
+  height: 50px;
+  font-size: 16px; }
+  .crumbs ul li {
+    height: 50px;
+    line-height: 50px;
+    float: left; }
+    .crumbs ul li span {
+      margin: 0 10px; }
+    .crumbs ul li .active {
+      color: #ed593f; }
+
+.container {
+  height: 1600px;
+  background-color: #f1f1f1; }
+  .container .m-left, .container .m-right {
+    float: left; }
+  .container .m-left {
+    width: 1000px; }
+    .container .m-left h2 {
+      font-size: 24px;
+      font-weight: normal; }
+      .container .m-left h2 span {
+        border-bottom: 2px solid #ed593f;
+        padding-bottom: 6px; }
+  .container .m-right {
+    width: 400px; }
+
+/*# sourceMappingURL=maps/company-list.css.map */

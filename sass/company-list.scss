@@ -1,0 +1,46 @@
+.top-line{
+    width: 100%;
+    height: 2px;
+    background-color: #ed593f;
+}
+// 面包屑导航
+.crumbs{
+    ul{
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+        li{
+            height: 50px;
+            line-height: 50px;
+            span{
+                margin: 0 10px;
+            }
+            float: left;
+            .active{
+                color: #ed593f;
+            }
+        }
+    }
+}
+// 列表主体
+.container{
+    height: 1600px;
+    background-color: #f1f1f1;
+    .m-left,.m-right{
+        float: left;
+    }
+    .m-left{
+        width: 1000px;
+        h2{
+            font-size: 24px;
+            font-weight: normal;
+            span{
+                border-bottom: 2px solid #ed593f;
+                padding-bottom: 6px;
+            }
+        }
+    }
+    .m-right{
+        width: 400px;
+    }
+} 
