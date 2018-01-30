@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
     <!-- 获取地理位置 -->
     <script src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
 </head>
+
 <body>
     <!-- 头部 -->
     <div class="header w1500 clearfix">
@@ -122,7 +124,7 @@
         </div>
         <div class="cover-bar">
             <!-- <form action="" class="w1500"> -->
-                <!-- <p><input type="text"></p>
+            <!-- <p><input type="text"></p>
                 <p><input type="text"></p>
                 <p><input type="text"></p> -->
             <!-- </form> -->
@@ -202,6 +204,7 @@
         <div class="area-base">
             <div class="area-box">
                 <ul class="area-bar clearfix">
+                    <!-- 根据当前城市添加地区 -->
                 </ul>
             </div>
             <div class="prev">
@@ -213,62 +216,7 @@
         </div>
         <!-- 企业 -->
         <ul class="company-list clearfix w1400">
-            <li>
-                <i class="recommend"></i>
-                <div class="pic"></div>
-                <div class="logo"></div>
-                <div class="content">
-                    <p class="company-name">杭州市吉康装饰有限公司</p>
-                    <p class="prestige">
-                        好评率：<span>99%</span>
-                        设计方案：<span>666</span>
-                        业主评论：<span>888</span>
-                    </p>
-                    <div class="button">免费设计</div>
-                </div>
-            </li>
-            <li>
-                <i class="recommend"></i>
-                <div class="pic"></div>
-                <div class="logo"></div>
-                <div class="content">
-                    <p class="company-name">杭州市吉康装饰有限公司</p>
-                    <p class="prestige">
-                        好评率：<span>99%</span>
-                        设计方案：<span>666</span>
-                        业主评论：<span>888</span>
-                    </p>
-                    <div class="button">免费设计</div>
-                </div>
-            </li>
-            <li>
-                <i class="recommend"></i>
-                <div class="pic"></div>
-                <div class="logo"></div>
-                <div class="content">
-                    <p class="company-name">杭州市吉康装饰有限公司</p>
-                    <p class="prestige">
-                        好评率：<span>99%</span>
-                        设计方案：<span>666</span>
-                        业主评论：<span>888</span>
-                    </p>
-                    <div class="button">免费设计</div>
-                </div>
-            </li>
-            <li>
-                <i class="recommend"></i>
-                <div class="pic"></div>
-                <div class="logo"></div>
-                <div class="content">
-                    <p class="company-name">杭州市吉康装饰有限公司</p>
-                    <p class="prestige">
-                        好评率：<span>99%</span>
-                        设计方案：<span>666</span>
-                        业主评论：<span>888</span>
-                    </p>
-                    <div class="button">免费设计</div>
-                </div>
-            </li>
+            <!-- 动态添加广告位（至多四个） -->
         </ul>
     </div>
     <!-- 装修计算器 -->
@@ -397,9 +345,10 @@
     <script src="js/index.js"></script>
     <script>
         //轮播图启动
-        $(window).on('load', function () {
+        $(window).on('load', function() {
             $('.ma5slider').ma5slider();
         });
     </script>
 </body>
+
 </html>
