@@ -1,0 +1,190 @@
+.top-line {
+  width: 100%;
+  height: 2px;
+  background-color: #ed593f; }
+
+.crumbs ul {
+  width: 100%;
+  font-size: 16px; }
+  .crumbs ul li {
+    height: 60px;
+    line-height: 55px;
+    float: left; }
+    .crumbs ul li span {
+      margin: 0 10px; }
+    .crumbs ul li .active {
+      color: #ed593f; }
+
+.banner {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .banner .slides {
+    position: relative;
+    width: 100%;
+    height: 500px; }
+    .banner .slides .item {
+      position: absolute;
+      top: 0; }
+      .banner .slides .item img {
+        transform: scale(1);
+        transition: all 3.5s ease-in-out; }
+      .banner .slides .item .img-active {
+        transform: scale(0.97); }
+      .banner .slides .item .summary {
+        position: absolute;
+        top: 50px;
+        left: 357px;
+        width: 370px;
+        z-index: 10; }
+        .banner .slides .item .summary .tit {
+          margin-top: 40px;
+          font-size: 26px;
+          color: #3e3e3e;
+          transition: all .7s ease-in-out;
+          transform: translate(-800px, 0); }
+        .banner .slides .item .summary .text {
+          margin-top: 40px;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 1.1px;
+          color: #5f5f5f;
+          transition: all 1s ease-in-out;
+          transform: translate(-2000px, 0); }
+        .banner .slides .item .summary .btn {
+          width: 100px;
+          height: 30px;
+          border: 1px solid #4f4f4f;
+          line-height: 30px;
+          text-align: center;
+          margin-top: 35px;
+          transition: all .4s;
+          transform: translate(0, 180px); }
+        .banner .slides .item .summary .titActive {
+          transform: translate(0, 0); }
+        .banner .slides .item .summary .textActive {
+          transform: translate(0, 0); }
+        .banner .slides .item .summary .btnActive {
+          transform: translate(0, 0); }
+        .banner .slides .item .summary .btn:hover {
+          background-color: #4f4f4f;
+          color: #fff; }
+
+.container {
+  margin-top: 40px; }
+  .container h2 {
+    width: 250px;
+    height: 35px;
+    margin: 110px auto 0;
+    font-weight: normal; }
+    .container h2 .line {
+      float: left;
+      margin-top: 18px;
+      width: 50px;
+      border-top: 2px solid #bfbfbf; }
+    .container h2 .title {
+      float: left;
+      width: 103px;
+      font-size: 34px;
+      margin: 0 22px;
+      border: none;
+      color: #3e3e3e; }
+  .container .word {
+    margin-top: 20px;
+    color: #a1a1a1;
+    text-align: center;
+    font-size: 16px; }
+  .container .decorate-case {
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background: url(../images/loading1.gif) 750px 250px no-repeat; }
+    .container .decorate-case img {
+      display: block;
+      background-color: #f1f1f1;
+      line-height: 300px;
+      text-align: center; }
+    .container .decorate-case .m-left {
+      width: 170px;
+      height: 700px;
+      float: left;
+      border-right: 1px solid #4f4f4f;
+      font-size: 16px;
+      user-select: none; }
+      .container .decorate-case .m-left div {
+        width: 100%;
+        margin-bottom: 50px; }
+        .container .decorate-case .m-left div p {
+          padding: 5px 4px;
+          margin-bottom: 7px;
+          color: #3e3e3e; }
+        .container .decorate-case .m-left div ul li {
+          float: left;
+          padding: 5px 4px;
+          margin-right: 7px;
+          cursor: pointer; }
+        .container .decorate-case .m-left div ul .li-active {
+          background-color: #f08c51;
+          color: #fff; }
+      .container .decorate-case .m-left .decorate-proportion ul {
+        width: 130px; }
+        .container .decorate-case .m-left .decorate-proportion ul li {
+          padding: 5px; }
+    .container .decorate-case .m-right {
+      float: right;
+      width: 1200px;
+      height: 100%; }
+      .container .decorate-case .m-right .piece-middle {
+        width: 1217px;
+        margin-top: 15px; }
+        .container .decorate-case .m-right .piece-middle div {
+          float: left;
+          width: 592.5px;
+          height: 444px;
+          margin-right: 15px;
+          margin-bottom: 15px; }
+          .container .decorate-case .m-right .piece-middle div img {
+            width: 592.5px;
+            height: 444px; }
+        .container .decorate-case .m-right .piece-middle .case-info {
+          position: relative; }
+          .container .decorate-case .m-right .piece-middle .case-info img {
+            background: none; }
+          .container .decorate-case .m-right .piece-middle .case-info .cover-box {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 10;
+            text-align: center;
+            color: #fff;
+            transition: all .5s; }
+            .container .decorate-case .m-right .piece-middle .case-info .cover-box .tit {
+              margin-top: 120px;
+              font-size: 32px; }
+            .container .decorate-case .m-right .piece-middle .case-info .cover-box .info {
+              margin-top: 25px;
+              font-size: 18px; }
+            .container .decorate-case .m-right .piece-middle .case-info .cover-box .company {
+              margin-top: 25px;
+              font-size: 18px; }
+            .container .decorate-case .m-right .piece-middle .case-info .cover-box .btn {
+              margin: 0 auto;
+              margin-top: 30px;
+              float: none;
+              width: 200px;
+              height: 40px;
+              font-size: 16px;
+              line-height: 38px;
+              border-radius: 20px;
+              text-align: center;
+              border: 1px solid #fff;
+              transition: all .3s; }
+            .container .decorate-case .m-right .piece-middle .case-info .cover-box:hover {
+              background-color: rgba(0, 0, 0, 0.9); }
+            .container .decorate-case .m-right .piece-middle .case-info .cover-box:hover .btn {
+              background-color: #fff;
+              color: #000; }
+
+.footer {
+  margin-top: 75px; }
+
+/*# sourceMappingURL=maps/decorate-case.css.map */

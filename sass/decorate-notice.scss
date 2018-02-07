@@ -1,0 +1,136 @@
+.top-line {
+    width: 100%;
+    height: 2px;
+    background-color: #ed593f;
+}
+
+// 面包屑导航
+.crumbs {
+    ul {
+        width: 100%;
+        font-size: 16px;
+        li {
+            height: 60px;
+            line-height: 55px;
+            span {
+                margin: 0 10px;
+            }
+            float: left;
+            .active {
+                color: #ed593f;
+            }
+        }
+    }
+}
+
+//新闻部分
+.container {
+    background-color: #f2f2f2;
+    .article {
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .article-list {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            width: 400px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #fff;
+            .news-title {
+                margin-left: 20px;
+                padding-left: 10px;
+                font-size: 24px;
+                font-weight: bold;
+                border-left: 4px solid #ed593f;
+            }
+            .news-box {
+                margin-top: 30px;
+                margin-left: 20px;
+                li {
+                    width: 360px;
+                    height: 100px;
+                    margin-bottom: 15px;
+                    border-bottom: 2px dashed #ccc;
+                    img {
+                        display: block;
+                        width: 120px;
+                        height: 100px;
+                        float: left;
+                        line-height: 100px;
+                        background-color: #f2f2f2;
+                        text-align: center;
+                    }
+                    div {
+                        margin-left: 13px;
+                        width: 200px;
+                        float: left;
+                        font-size: 16px;
+                        .tit {
+                            padding-top: 10px;
+                            height: 60px;
+                            overflow: hidden;
+                            // text-overflow: ellipsis;
+                            // white-space: nowrap;
+                        }
+                        .date {}
+                    }
+                }
+            }
+        }
+        .article-body {
+            width: 880px;
+            min-height: 1000px;
+            background-color: #fff;
+            padding-top: 30px;
+            padding-bottom: 90px;
+            .title {
+                width: 800px;
+                height: 200px;
+                // background-color: #ccc;
+                margin: 0 auto;
+                img {
+                    display: block;
+                    float: left;
+                    width: 300px;
+                    height: 200px;
+                    line-height: 200px;
+                    text-align: center;
+                    background-color: #f2f2f2;
+                }
+                .title-part {
+                    float: left;
+                    margin-left: 30px;
+                    h2 {
+                        width: 400px;
+                        font-size: 28px;
+                        color: #333;
+                        margin-top: 18px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    p {
+                        margin-top: 20px;
+                    }
+                }
+            }
+            .article-part {
+                margin: 50px auto 0;
+                width: 800px;
+                font-size: 16px;
+                text-indent: 2em;
+                line-height: 40px;
+                letter-spacing: 1px;
+                img {
+                    margin-top: 10px;
+                    display: block;
+                    background-color: #f2f2f2;
+                    line-height: 400px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

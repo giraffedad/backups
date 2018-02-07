@@ -1,0 +1,29 @@
+#goToTop {
+    position: fixed;
+    right: 50px;
+    bottom: 120px;
+    /* z-index: 9000; */
+}
+
+#goToTop a {
+    background: url(../images/top-icon.png) 10px 6px no-repeat;
+    padding-top: 52px;
+    text-align: center;
+    display: block;
+    border: 1px solid #c3c3c3;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    width: 60px;
+    height: 28px;
+    font-weight: bold;
+    transition: all .4s;
+}
+
+#goToTop:hover a {
+    background: url(../images/top-icon.png) 10px -34px no-repeat;
+    background-color: #333;
+    color: #fff;
+}

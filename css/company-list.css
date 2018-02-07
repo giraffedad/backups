@@ -5,31 +5,344 @@
 
 .crumbs ul {
   width: 100%;
-  height: 50px;
   font-size: 16px; }
   .crumbs ul li {
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 55px;
     float: left; }
     .crumbs ul li span {
       margin: 0 10px; }
     .crumbs ul li .active {
       color: #ed593f; }
 
-.container {
-  height: 1600px;
-  background-color: #f1f1f1; }
-  .container .m-left, .container .m-right {
-    float: left; }
-  .container .m-left {
-    width: 1000px; }
-    .container .m-left h2 {
-      font-size: 24px;
-      font-weight: normal; }
-      .container .m-left h2 span {
-        border-bottom: 2px solid #ed593f;
-        padding-bottom: 6px; }
-  .container .m-right {
-    width: 400px; }
+.container .m-left,
+.container .m-right {
+  float: left; }
+
+.container .m-left {
+  width: 1000px; }
+  .container .m-left h2 {
+    font-size: 24px;
+    font-weight: normal;
+    width: 980px;
+    height: 34px; }
+    .container .m-left h2 span {
+      color: #3e3e3e;
+      border-bottom: 2px solid #ed593f;
+      padding-bottom: 6px; }
+  .container .m-left .bottom-line {
+    border-bottom: 1px solid #7d7d7d; }
+    .container .m-left .bottom-line .text {
+      font-size: 16px;
+      border: none;
+      padding-left: 42px; }
+    .container .m-left .bottom-line .pages {
+      float: right;
+      font-size: 16px;
+      margin: 10px; }
+      .container .m-left .bottom-line .pages span {
+        border: none; }
+  .container .m-left .search-area {
+    width: 1000px;
+    padding-bottom: 50px; }
+    .container .m-left .search-area .search-active {
+      background-color: #ed593f;
+      color: #fff; }
+    .container .m-left .search-area .present-city,
+    .container .m-left .search-area .house-type,
+    .container .m-left .search-area .district-serve,
+    .container .m-left .search-area .price-range {
+      padding-top: 25px;
+      width: 100%;
+      font-size: 16px; }
+      .container .m-left .search-area .present-city div,
+      .container .m-left .search-area .house-type div,
+      .container .m-left .search-area .district-serve div,
+      .container .m-left .search-area .price-range div {
+        float: left;
+        height: 30px;
+        text-align: center;
+        padding: 0 12px 0 5px;
+        line-height: 30px;
+        color: #3e3e3e; }
+      .container .m-left .search-area .present-city ul,
+      .container .m-left .search-area .house-type ul,
+      .container .m-left .search-area .district-serve ul,
+      .container .m-left .search-area .price-range ul {
+        float: left;
+        width: 900px; }
+        .container .m-left .search-area .present-city ul li,
+        .container .m-left .search-area .house-type ul li,
+        .container .m-left .search-area .district-serve ul li,
+        .container .m-left .search-area .price-range ul li {
+          float: left;
+          padding: 7px 18px;
+          cursor: pointer; }
+  .container .m-left .company-list {
+    width: 100%;
+    padding-top: 70px;
+    padding-left: 25px; }
+    .container .m-left .company-list .prior li:hover h3 {
+      color: #f27f46 !important; }
+    .container .m-left .company-list .prior li:hover {
+      transform: translate(0, -5px); }
+    .container .m-left .company-list .prior li {
+      padding-top: 20px;
+      width: 900px;
+      height: 200px;
+      margin-bottom: 80px;
+      box-shadow: 2px 2px 7px 3px #ccc;
+      transition: all .4s; }
+      .container .m-left .company-list .prior li .company-logo {
+        width: 130px;
+        float: left; }
+        .container .m-left .company-list .prior li .company-logo img {
+          display: inline-block;
+          width: 140px;
+          height: 140px;
+          margin: 5px;
+          margin-left: 10px;
+          line-height: 140px;
+          text-align: center;
+          background-color: #eeeeee; }
+        .container .m-left .company-list .prior li .company-logo p {
+          font-size: 14px;
+          text-align: center;
+          margin-left: 3px;
+          margin-top: 7px; }
+          .container .m-left .company-list .prior li .company-logo p span {
+            color: #f27f46; }
+      .container .m-left .company-list .prior li .company-detail {
+        float: left;
+        margin-left: 40px;
+        width: 725px; }
+        .container .m-left .company-list .prior li .company-detail .detail-left {
+          float: left; }
+          .container .m-left .company-list .prior li .company-detail .detail-left .tit h3 {
+            margin-top: 17px;
+            font-size: 28px;
+            color: #f27f46;
+            cursor: pointer; }
+          .container .m-left .company-list .prior li .company-detail .detail-left .tit p {
+            cursor: pointer;
+            margin-top: 15px; }
+          .container .m-left .company-list .prior li .company-detail .detail-left .tag {
+            margin-top: 20px; }
+            .container .m-left .company-list .prior li .company-detail .detail-left .tag img {
+              width: 57px;
+              height: 18px;
+              margin-right: 15px; }
+        .container .m-left .company-list .prior li .company-detail .detail-right {
+          float: right;
+          margin-right: 25px; }
+          .container .m-left .company-list .prior li .company-detail .detail-right div {
+            margin-top: 20px;
+            width: 110px;
+            height: 22px;
+            border: 2px solid #ed593f;
+            color: #ed593f;
+            text-align: center;
+            line-height: 22px;
+            cursor: pointer; }
+          .container .m-left .company-list .prior li .company-detail .detail-right .active {
+            background-color: #ed593f;
+            color: #fff; }
+          .container .m-left .company-list .prior li .company-detail .detail-right .price-btn {
+            margin-top: 16px; }
+        .container .m-left .company-list .prior li .company-detail .note {
+          width: 700px;
+          margin-top: 30px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+    .container .m-left .company-list ul {
+      width: 100%; }
+      .container .m-left .company-list ul li:hover h3 {
+        color: #f27f46 !important; }
+      .container .m-left .company-list ul li:hover {
+        transform: translate(0, -5px); }
+      .container .m-left .company-list ul li {
+        width: 900px;
+        height: 160px;
+        margin-bottom: 80px;
+        box-shadow: 2px 2px 6px 2px #e9e9e9;
+        transition: all .4s; }
+        .container .m-left .company-list ul li .company-logo {
+          width: 130px;
+          float: left; }
+          .container .m-left .company-list ul li .company-logo img {
+            display: inline-block;
+            width: 120px;
+            height: 120px;
+            margin: 5px;
+            line-height: 120px;
+            text-align: center;
+            background-color: #eeeeee; }
+          .container .m-left .company-list ul li .company-logo p {
+            font-size: 14px;
+            padding: 5px;
+            text-align: center; }
+            .container .m-left .company-list ul li .company-logo p span {
+              color: #f27f46; }
+        .container .m-left .company-list ul li .company-detail {
+          float: left;
+          margin-left: 20px;
+          width: 725px; }
+          .container .m-left .company-list ul li .company-detail .detail-left {
+            float: left; }
+            .container .m-left .company-list ul li .company-detail .detail-left .tit h3 {
+              margin-top: 17px;
+              font-size: 20px;
+              color: #000;
+              cursor: pointer; }
+            .container .m-left .company-list ul li .company-detail .detail-left .tit p {
+              cursor: pointer;
+              margin-top: 15px; }
+            .container .m-left .company-list ul li .company-detail .detail-left .tag {
+              margin-top: 20px; }
+              .container .m-left .company-list ul li .company-detail .detail-left .tag img {
+                width: 57px;
+                height: 18px;
+                margin-right: 15px; }
+          .container .m-left .company-list ul li .company-detail .detail-right {
+            float: right; }
+            .container .m-left .company-list ul li .company-detail .detail-right div {
+              margin-top: 20px;
+              width: 110px;
+              height: 22px;
+              border: 2px solid #ed593f;
+              color: #ed593f;
+              text-align: center;
+              line-height: 22px;
+              cursor: pointer; }
+            .container .m-left .company-list ul li .company-detail .detail-right .active {
+              background-color: #ed593f;
+              color: #fff; }
+            .container .m-left .company-list ul li .company-detail .detail-right .price-btn {
+              margin-top: 16px; }
+          .container .m-left .company-list ul li .company-detail .note {
+            width: 730px;
+            margin-top: 30px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+
+.container .m-right {
+  width: 400px; }
+  .container .m-right .offer {
+    width: 342px;
+    height: 470px; }
+    .container .m-right .offer .g-top {
+      width: 100%;
+      padding: 40px 0;
+      background-color: #f38047;
+      color: #a73800;
+      text-align: center; }
+      .container .m-right .offer .g-top h2 {
+        font-weight: bold;
+        font-size: 38px; }
+      .container .m-right .offer .g-top p {
+        font-size: 22px;
+        color: #782b01;
+        margin-top: 14px; }
+    .container .m-right .offer .g-bottom {
+      border: 1px solid #7d7d7d;
+      border-top: none;
+      padding-top: 25px;
+      border-radius: 0 0 5px 5px; }
+      .container .m-right .offer .g-bottom .input-box {
+        width: 268px;
+        height: 56px;
+        border: 1px solid #7d7d7d;
+        border-radius: 9px;
+        margin: 25px auto; }
+        .container .m-right .offer .g-bottom .input-box input {
+          width: 240px;
+          height: 48px;
+          margin: 4px 14px;
+          font-size: 22px; }
+      .container .m-right .offer .g-bottom .proportion-box {
+        margin-top: 0; }
+      .container .m-right .offer .g-bottom .btn {
+        width: 268px;
+        height: 56px;
+        background-color: #ed593f;
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        line-height: 56px;
+        border-radius: 9px;
+        cursor: pointer; }
+      .container .m-right .offer .g-bottom p {
+        margin-top: 18px;
+        margin-bottom: 28px;
+        text-align: center;
+        font-size: 22px; }
+        .container .m-right .offer .g-bottom p span {
+          color: #f38047; }
+  .container .m-right .coupon {
+    margin-top: 85px;
+    width: 342px;
+    height: 300px; }
+    .container .m-right .coupon h3 {
+      font-size: 28px;
+      font-weight: normal;
+      text-align: center;
+      margin-bottom: 35px; }
+    .container .m-right .coupon .slides a .coupon-name {
+      position: absolute;
+      top: 36px;
+      left: 80px;
+      font-size: 36px;
+      color: #fff; }
+    .container .m-right .coupon .slides a .coupon-date {
+      width: 300px;
+      position: absolute;
+      top: 110px;
+      left: 20px;
+      font-size: 18px;
+      text-align: center;
+      color: #fff;
+      background-color: #f28b7a;
+      padding: 6px 3px;
+      border-radius: 8px; }
+  .container .m-right .outside-dots .dots > .dot.active {
+    background-color: #f38047; }
+
+.page-list {
+  height: 40px; }
+
+.aim {
+  margin-top: 80px;
+  margin-bottom: 60px; }
+  .aim h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: normal; }
+    .aim h2 span {
+      color: #ed593f; }
+  .aim .aim-list {
+    margin-top: 62px; }
+    .aim .aim-list li {
+      float: left;
+      width: 400px;
+      margin-right: 60px; }
+      .aim .aim-list li img {
+        float: left;
+        width: 110px;
+        height: 110px; }
+      .aim .aim-list li div {
+        float: left;
+        margin-left: 15px; }
+        .aim .aim-list li div .tit {
+          font-size: 34px;
+          margin-top: 20px; }
+        .aim .aim-list li div .text {
+          font-size: 22px;
+          margin-top: 10px; }
+
+.outside-dots .dots > .dot:hover {
+  background-color: #aaaaaa; }
 
 /*# sourceMappingURL=maps/company-list.css.map */

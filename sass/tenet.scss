@@ -1,0 +1,45 @@
+.top-line {
+    width: 100%;
+    height: 2px;
+    background-color: #ed593f;
+}
+
+// 面包屑导航
+.crumbs {
+    ul {
+        width: 100%;
+        font-size: 16px;
+        li {
+            height: 60px;
+            line-height: 55px;
+            span {
+                margin: 0 10px;
+            }
+            float: left;
+            .active {
+                color: #ed593f;
+            }
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 493px;
+    overflow: hidden;
+    .banner-pic {
+        width: 1920px;
+        height: 493px;
+        background: url(../images/tenet/tenet-banner.jpg);
+    }
+}
+
+.container {
+    margin-top: 110px;
+    margin-bottom: 160px;
+    .pic {
+        width: 100%;
+        height: 2025px;
+        background: url(../images/tenet/tenet.jpg);
+    }
+}

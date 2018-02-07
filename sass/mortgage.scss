@@ -1,0 +1,130 @@
+.top-line {
+    width: 100%;
+    height: 2px;
+    background-color: #ed593f;
+}
+
+// 面包屑导航
+.crumbs {
+    ul {
+        width: 100%;
+        font-size: 16px;
+        li {
+            height: 60px;
+            line-height: 55px;
+            span {
+                margin: 0 10px;
+            }
+            float: left;
+            .active {
+                color: #ed593f;
+            }
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    .banner-pic {
+        position: relative;
+        width: 1920px;
+        height: 500px;
+        background: url(../images/mortgage/mortgage.jpg);
+        .banner-btn {
+            position: absolute;
+            left: 843px;
+            bottom: 53px;
+            border-radius: 30px;
+            width: 180px;
+            height: 46px;
+            background-color: #ed593f;
+            border: 2px solid #ed593f;
+            color: #fff;
+            font-size: 26px;
+            text-align: center;
+            line-height: 43px;
+            transition: all .3s;
+            &:hover {
+                background-color: #fff;
+                color: #333;
+                border: 2px solid #fff;
+            }
+        }
+    }
+}
+
+.container {
+    .bank-flow {
+        width: 100%;
+        padding: 60px 0;
+        h2 {
+            text-align: center;
+            font-size: 38px;
+            color: #02a0e9;
+            margin-bottom: 42px;
+            letter-spacing: 4px;
+        }
+        .text {
+            font-size: 26px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 28px;
+            letter-spacing: 2px;
+        }
+        .bank-box {
+            width: 100%;
+            margin-top: 150px;
+            .bank-msg {
+                float: left;
+                h3 {
+                    font-size: 28px;
+                    color: #02a0e9;
+                    margin-bottom: 35px;
+                    letter-spacing: 3px;
+                }
+                p {
+                    color: rgb(34, 34, 34);
+                    font-size: 20px;
+                    margin-bottom: 26px;
+                    letter-spacing: 2px;
+                }
+            }
+            .bank-pic {
+                float: right;
+                width: 382px;
+                height: 247px;
+                background: url(../images/mortgage/bank.jpg);
+            }
+        }
+        .bank-btn {
+            margin: 100px auto 0;
+            border-radius: 30px;
+            width: 250px;
+            height: 50px;
+            background-color: #ed593f;
+            border: 2px solid #ed593f;
+            color: #fff;
+            font-size: 34px;
+            text-align: center;
+            line-height: 50px;
+            transition: all .3s;
+            &:hover {
+                background-color: #fff;
+                color: #ed593f;
+            }
+        }
+    }
+}
+
+.suggest {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    .suggest-pic {
+        width: 1920px;
+        height: 400px;
+        background: url(../images/mortgage/flow.jpg);
+    }
+}

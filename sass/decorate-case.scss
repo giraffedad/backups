@@ -1,0 +1,243 @@
+.top-line {
+    width: 100%;
+    height: 2px;
+    background-color: #ed593f;
+}
+
+// 面包屑导航
+.crumbs {
+    ul {
+        width: 100%;
+        font-size: 16px;
+        li {
+            height: 60px;
+            line-height: 55px;
+            span {
+                margin: 0 10px;
+            }
+            float: left;
+            .active {
+                color: #ed593f;
+            }
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    .slides {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        .item {
+            position: absolute;
+            top: 0;
+            img {
+                transform: scale(1);
+                transition: all 3.5s ease-in-out;
+            }
+            .img-active {
+                transform: scale(0.97);
+            }
+            .summary {
+                position: absolute;
+                top: 50px;
+                left: 357px;
+                width: 370px;
+                // background-color: #ccc;
+                z-index: 10;
+                .tit {
+                    margin-top: 40px;
+                    font-size: 26px;
+                    color: #3e3e3e;
+                    transition: all .7s ease-in-out;
+                    transform: translate(-800px, 0);
+                }
+                .text {
+                    margin-top: 40px;
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: 1.1px;
+                    color: #5f5f5f;
+                    transition: all 1s ease-in-out;
+                    transform: translate(-2000px, 0);
+                }
+                .btn {
+                    width: 100px;
+                    height: 30px;
+                    border: 1px solid #4f4f4f;
+                    line-height: 30px;
+                    text-align: center;
+                    margin-top: 35px;
+                    transition: all .4s;
+                    transform: translate(0, 180px);
+                }
+                .titActive {
+                    transform: translate(0, 0);
+                }
+                .textActive {
+                    transform: translate(0, 0);
+                }
+                .btnActive {
+                    transform: translate(0, 0);
+                }
+                .btn:hover {
+                    background-color: #4f4f4f;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.container {
+    margin-top: 40px;
+    h2 {
+        width: 250px;
+        height: 35px;
+        margin: 110px auto 0;
+        font-weight: normal;
+        .line {
+            float: left;
+            margin-top: 18px;
+            width: 50px;
+            border-top: 2px solid #bfbfbf;
+        }
+        .title {
+            float: left;
+            width: 103px;
+            font-size: 34px;
+            margin: 0 22px;
+            border: none;
+            color: #3e3e3e;
+        }
+    }
+    .word {
+        margin-top: 20px;
+        color: #a1a1a1;
+        text-align: center;
+        font-size: 16px;
+    }
+    .decorate-case {
+        width: 100%;
+        margin-top: 75px;
+        margin-bottom: 75px;
+        background: url(../images/loading1.gif) 750px 250px no-repeat;
+        img {
+            display: block;
+            background-color: #f1f1f1;
+            line-height: 300px;
+            text-align: center;
+        }
+        .m-left {
+            width: 170px;
+            height: 700px;
+            float: left;
+            border-right: 1px solid #4f4f4f;
+            font-size: 16px;
+            user-select: none;
+            div {
+                width: 100%;
+                margin-bottom: 50px;
+                p {
+                    padding: 5px 4px;
+                    margin-bottom: 7px;
+                    color: #3e3e3e;
+                }
+                ul {
+                    li {
+                        float: left;
+                        padding: 5px 4px;
+                        margin-right: 7px;
+                        cursor: pointer;
+                    }
+                    .li-active {
+                        background-color: #f08c51;
+                        color: #fff;
+                    }
+                }
+            }
+            .decorate-proportion {
+                ul {
+                    width: 130px;
+                    li {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+        .m-right {
+            float: right;
+            width: 1200px;
+            height: 100%;
+            .piece-middle {
+                width: 1217px;
+                margin-top: 15px;
+                div {
+                    float: left;
+                    width: 592.5px;
+                    height: 444px;
+                    margin-right: 15px;
+                    margin-bottom: 15px;
+                    img {
+                        width: 592.5px;
+                        height: 444px;
+                    }
+                }
+                .case-info {
+                    position: relative;
+                    img {
+                        background: none;
+                    }
+                    .cover-box {
+                        position: absolute;
+                        background-color: rgba($color: #000000, $alpha: 0.5);
+                        z-index: 10;
+                        text-align: center;
+                        color: #fff;
+                        transition: all .5s;
+                        .tit {
+                            margin-top: 120px;
+                            font-size: 32px;
+                        }
+                        .info {
+                            margin-top: 25px;
+                            font-size: 18px;
+                        }
+                        .company {
+                            margin-top: 25px;
+                            font-size: 18px;
+                        }
+                        .btn {
+                            margin: 0 auto;
+                            margin-top: 30px;
+                            float: none;
+                            // margin-top: 20px;
+                            width: 200px;
+                            height: 40px;
+                            font-size: 16px;
+                            line-height: 38px;
+                            border-radius: 20px;
+                            text-align: center;
+                            border: 1px solid #fff;
+                            transition: all .3s;
+                        }
+                        &:hover {
+                            background-color: rgba($color: #000000, $alpha: 0.9);
+                        }
+                        &:hover .btn {
+                            background-color: #fff;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    margin-top: 75px;
+}

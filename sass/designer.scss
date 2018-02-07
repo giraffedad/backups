@@ -1,0 +1,179 @@
+.top-line {
+    width: 100%;
+    height: 2px;
+    background-color: #ed593f;
+}
+
+// 面包屑导航
+.crumbs {
+    ul {
+        width: 100%;
+        font-size: 16px;
+        li {
+            height: 60px;
+            line-height: 55px;
+            span {
+                margin: 0 10px;
+            }
+            float: left;
+            .active {
+                color: #ed593f;
+            }
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 280px;
+    background: url(../images/designer/bg.jpg) no-repeat;
+    padding-top: 20px;
+    .designer-photo {
+        margin: 0 auto;
+        width: 160px;
+        color: #fff;
+        text-align: center;
+        .pic {
+            margin: 0 auto;
+            width: 116px;
+            height: 113px;
+            background-color: #fff;
+            border-radius: 50%;
+            padding-top: 3px;
+            img {
+                display: block;
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                margin: 0 auto;
+            }
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: normal;
+            margin-top: 16px;
+        }
+        p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .btn {
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 140px;
+            height: 30px;
+            background-color: #f38248;
+            line-height: 28px;
+            color: #fff;
+            font-size: 18px;
+            border: 2px solid #f38248;
+            border-radius: 15px;
+            // font-weight: bold;
+            transition: all .4s;
+        }
+        .btn:hover {
+            background-color: transparent;
+        }
+    }
+}
+
+// <!-- 主体容器 -->
+.container {
+    // 设计师信息
+    padding: 30px 0 60px;
+    .info {
+        width: 100%;
+        height: 300px;
+        border: 1px solid #ccc;
+        // background-color: #ccc;
+        .m-left {
+            float: left;
+            img {
+                float: left;
+                display: block;
+                width: 300px;
+                height: 300px;
+                line-height: 300px;
+                text-align: center;
+                background-color: #f2f2f2;
+            }
+            .cont {
+                float: left;
+                padding: 25px 40px;
+                h3 {
+                    font-size: 24px;
+                    font-weight: normal;
+                    color: #333;
+                    letter-spacing: 8px;
+                }
+                p {
+                    font-size: 16px;
+                    margin-top: 12px;
+                }
+                .num {
+                    margin-top: 100px;
+                }
+            }
+        }
+    }
+    // <!-- 代表作品 -->
+    .production {
+        padding: 60px 0;
+        text-align: center;
+        .m-left {
+            float: left;
+            width: 980px;
+            h2 {
+                margin: 0 auto;
+                width: 140px;
+                font-size: 30px;
+                font-weight: normal;
+                padding: 16px 25px;
+                color: #333;
+                border-bottom: 2px solid #ccc;
+            }
+            ul {
+                li {
+                    float: left;
+                    width: 312px;
+                    height: 300px;
+                    background-color: pink;
+                    margin-right: 20px;
+                    margin-top: 20px;
+                    img {
+                        display: block;
+                        width: 312px;
+                        height: 300px;
+                    }
+                }
+                li:nth-child(3n) {
+                    margin-right: 0;
+                }
+            }
+        }
+        .m-right {
+            float: right;
+            width: 280px;
+            h2 {
+                text-align: left;
+                width: 210px;
+                font-size: 30px;
+                font-weight: normal;
+                padding: 16px 0;
+                color: #333;
+                border-bottom: 2px solid #ccc;
+            }
+            .pic {
+                width: 280px;
+                height: 280px;
+                margin-top: 20px;
+                img {
+                    display: block;
+                    width: 280px;
+                    height: 280px;
+                    background-color: #f2f2f2;
+                }
+            }
+        }
+    }
+}

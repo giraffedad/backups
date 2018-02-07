@@ -1,0 +1,108 @@
+.top-line {
+  width: 100%;
+  height: 2px;
+  background-color: #ed593f; }
+
+.crumbs ul {
+  width: 100%;
+  font-size: 16px; }
+  .crumbs ul li {
+    height: 60px;
+    line-height: 55px;
+    float: left; }
+    .crumbs ul li span {
+      margin: 0 10px; }
+    .crumbs ul li .active {
+      color: #ed593f; }
+
+.container {
+  background-color: #f2f2f2; }
+  .container .article {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .container .article .article-list {
+      position: absolute;
+      top: 40px;
+      right: 0;
+      width: 400px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: #fff; }
+      .container .article .article-list .news-title {
+        margin-left: 20px;
+        padding-left: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        border-left: 4px solid #ed593f; }
+      .container .article .article-list .news-box {
+        margin-top: 30px;
+        margin-left: 20px; }
+        .container .article .article-list .news-box li {
+          width: 360px;
+          height: 100px;
+          margin-bottom: 15px;
+          border-bottom: 2px dashed #ccc; }
+          .container .article .article-list .news-box li img {
+            display: block;
+            width: 120px;
+            height: 100px;
+            float: left;
+            line-height: 100px;
+            background-color: #f2f2f2;
+            text-align: center; }
+          .container .article .article-list .news-box li div {
+            margin-left: 13px;
+            width: 200px;
+            float: left;
+            font-size: 16px; }
+            .container .article .article-list .news-box li div .tit {
+              padding-top: 10px;
+              height: 60px;
+              overflow: hidden; }
+    .container .article .article-body {
+      width: 880px;
+      min-height: 1000px;
+      background-color: #fff;
+      padding-top: 30px;
+      padding-bottom: 90px; }
+      .container .article .article-body .title {
+        width: 800px;
+        height: 200px;
+        margin: 0 auto; }
+        .container .article .article-body .title img {
+          display: block;
+          float: left;
+          width: 300px;
+          height: 200px;
+          line-height: 200px;
+          text-align: center;
+          background-color: #f2f2f2; }
+        .container .article .article-body .title .title-part {
+          float: left;
+          margin-left: 30px; }
+          .container .article .article-body .title .title-part h2 {
+            width: 400px;
+            font-size: 28px;
+            color: #333;
+            margin-top: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+          .container .article .article-body .title .title-part p {
+            margin-top: 20px; }
+      .container .article .article-body .article-part {
+        margin: 50px auto 0;
+        width: 800px;
+        font-size: 16px;
+        text-indent: 2em;
+        line-height: 40px;
+        letter-spacing: 1px; }
+        .container .article .article-body .article-part img {
+          margin-top: 10px;
+          display: block;
+          background-color: #f2f2f2;
+          line-height: 400px;
+          text-align: center; }
+
+/*# sourceMappingURL=maps/decorate-notice.css.map */

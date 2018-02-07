@@ -1,0 +1,115 @@
+.top-line {
+  width: 100%;
+  height: 2px;
+  background-color: #ed593f; }
+
+.crumbs ul {
+  width: 100%;
+  font-size: 16px; }
+  .crumbs ul li {
+    height: 60px;
+    line-height: 55px;
+    float: left; }
+    .crumbs ul li span {
+      margin: 0 10px; }
+    .crumbs ul li .active {
+      color: #ed593f; }
+
+.banner {
+  width: 100%;
+  height: 450px;
+  overflow: hidden; }
+  .banner .banner-pic {
+    position: relative;
+    width: 1920px;
+    height: 450px;
+    background: url(../images/free-design/free-banner.jpg); }
+    .banner .banner-pic .offer {
+      position: absolute;
+      width: 400px;
+      background-color: #fff;
+      top: 15px;
+      right: 355px;
+      box-shadow: 1px 1px 8px #868686; }
+      .banner .banner-pic .offer .g-top {
+        width: 100%;
+        padding: 25px 0;
+        background-color: #f2a346;
+        color: #d44700;
+        text-align: center; }
+        .banner .banner-pic .offer .g-top h2 {
+          font-weight: bold;
+          font-size: 32px; }
+        .banner .banner-pic .offer .g-top p {
+          font-size: 22px;
+          color: #782b01;
+          margin-top: 20px; }
+      .banner .banner-pic .offer .g-bottom {
+        border-top: none;
+        padding-top: 25px;
+        margin-bottom: 28px;
+        border-radius: 0 0 5px 5px; }
+        .banner .banner-pic .offer .g-bottom .input-box {
+          width: 320px;
+          height: 40px;
+          border: 1px solid #7d7d7d;
+          border-radius: 9px;
+          margin: 25px auto; }
+          .banner .banner-pic .offer .g-bottom .input-box input {
+            width: 293px;
+            height: 32px;
+            margin: 4px 14px;
+            font-size: 18px; }
+        .banner .banner-pic .offer .g-bottom .check-box {
+          width: 320px;
+          font-size: 16px;
+          margin: 0 auto; }
+          .banner .banner-pic .offer .g-bottom .check-box input {
+            vertical-align: bottom;
+            width: 16px;
+            height: 16px;
+            cursor: pointer; }
+          .banner .banner-pic .offer .g-bottom .check-box span {
+            color: #333; }
+            .banner .banner-pic .offer .g-bottom .check-box span a {
+              color: #f38047; }
+        .banner .banner-pic .offer .g-bottom .proportion-box {
+          margin-top: 0; }
+        .banner .banner-pic .offer .g-bottom .btn {
+          width: 290px;
+          height: 50px;
+          border: 2px solid #f38047;
+          background-color: #fff;
+          margin: 20px auto 0;
+          text-align: center;
+          color: #f38047;
+          font-size: 26px;
+          line-height: 48px;
+          border-radius: 9px;
+          cursor: pointer;
+          transition: all .4s; }
+          .banner .banner-pic .offer .g-bottom .btn:hover {
+            color: #fff;
+            background-color: #f38047; }
+        .banner .banner-pic .offer .g-bottom p {
+          margin-top: 18px;
+          margin-bottom: 28px;
+          text-align: center;
+          font-size: 22px; }
+          .banner .banner-pic .offer .g-bottom p span {
+            color: #f38047; }
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 160px; }
+  .container h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: normal; }
+  .container .free-flow {
+    margin-top: 60px;
+    width: 100%;
+    height: 134px;
+    background: url(../images/free-design/free-flow.jpg); }
+
+/*# sourceMappingURL=maps/free-design.css.map */

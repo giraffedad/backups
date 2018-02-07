@@ -1,0 +1,59 @@
+.top-line {
+  width: 100%;
+  height: 2px;
+  background-color: #ed593f; }
+
+.crumbs ul {
+  width: 100%;
+  font-size: 16px; }
+  .crumbs ul li {
+    height: 60px;
+    line-height: 55px;
+    float: left; }
+    .crumbs ul li span {
+      margin: 0 10px; }
+    .crumbs ul li .active {
+      color: #ed593f; }
+
+.banner {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .banner img {
+    animation: banner 8s ease-in-out 225ms infinite; }
+
+@keyframes banner {
+  0% {
+    transform: scale(1.05) translate(0, 0px); }
+  50% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.05) translate(0, 0px); } }
+
+.summary {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px; }
+  .summary h2 {
+    margin: 0 auto;
+    font-size: 34px;
+    font-weight: normal;
+    border-bottom: 2px solid #ed593f;
+    width: 145px;
+    padding-bottom: 8px;
+    margin-bottom: 40px;
+    color: #333; }
+  .summary p {
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 1px; }
+    .summary p .email {
+      letter-spacing: 2px; }
+  .summary .iconograph {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px; }
+    .summary .iconograph img {
+      width: 100%; }
+
+/*# sourceMappingURL=maps/about-us.css.map */

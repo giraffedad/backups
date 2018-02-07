@@ -1,0 +1,145 @@
+.top-line {
+    width: 100%;
+    height: 2px;
+    background-color: #ed593f;
+}
+
+// 面包屑导航
+.crumbs {
+    ul {
+        width: 100%;
+        font-size: 16px;
+        li {
+            height: 60px;
+            line-height: 55px;
+            span {
+                margin: 0 10px;
+            }
+            float: left;
+            .active {
+                color: #ed593f;
+            }
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    .banner-pic {
+        position: relative;
+        width: 1920px;
+        height: 450px;
+        background: url(../images/free-design/free-banner.jpg);
+        // <!-- 免费装修报价 -->
+        .offer {
+            position: absolute;
+            width: 400px;
+            // height: 470px;
+            background-color: #fff;
+            top: 15px;
+            right: 355px;
+            box-shadow: 1px 1px 8px #868686;
+            .g-top {
+                width: 100%;
+                padding: 25px 0;
+                background-color: #f2a346;
+                color: #d44700;
+                text-align: center;
+                h2 {
+                    font-weight: bold;
+                    font-size: 32px;
+                }
+                p {
+                    font-size: 22px;
+                    color: #782b01;
+                    margin-top: 20px;
+                }
+            }
+            .g-bottom {
+                // border: 1px solid #7d7d7d;
+                border-top: none;
+                padding-top: 25px;
+                margin-bottom: 28px;
+                border-radius: 0 0 5px 5px;
+                .input-box {
+                    width: 320px;
+                    height: 40px;
+                    border: 1px solid #7d7d7d;
+                    border-radius: 9px;
+                    margin: 25px auto;
+                    input {
+                        width: 293px;
+                        height: 32px;
+                        margin: 4px 14px;
+                        font-size: 18px;
+                    }
+                }
+                .check-box {
+                    width: 320px;
+                    font-size: 16px;
+                    margin: 0 auto;
+                    input {
+                        vertical-align: bottom;
+                        width: 16px;
+                        height: 16px;
+                        cursor: pointer;
+                    }
+                    span {
+                        color: #333;
+                        a {
+                            color: #f38047;
+                        }
+                    }
+                }
+                .proportion-box {
+                    margin-top: 0;
+                }
+                .btn {
+                    width: 290px;
+                    height: 50px;
+                    border: 2px solid #f38047;
+                    background-color: #fff;
+                    margin: 20px auto 0;
+                    text-align: center;
+                    color: #f38047;
+                    font-size: 26px;
+                    line-height: 48px;
+                    border-radius: 9px;
+                    cursor: pointer;
+                    transition: all .4s;
+                    &:hover {
+                        color: #fff;
+                        background-color: #f38047;
+                    }
+                }
+                p {
+                    margin-top: 18px;
+                    margin-bottom: 28px;
+                    text-align: center;
+                    font-size: 22px;
+                    span {
+                        color: #f38047;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.container {
+    padding-top: 100px;
+    padding-bottom: 160px;
+    h2 {
+        text-align: center;
+        font-size: 38px;
+        font-weight: normal;
+    }
+    .free-flow {
+        margin-top: 60px;
+        width: 100%;
+        height: 134px;
+        background: url(../images/free-design/free-flow.jpg);
+    }
+}
